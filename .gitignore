@@ -2,6 +2,10 @@ node_modules/
 dist/*.zip
 !dist/integration-package-zero-friction.zip
 !dist/clrty-wallet-integration-full.zip
+!dist/wallet-sdk-downloads.zip
+!dist/wallet-process-pack.zip
+!dist/access-packs-catalog.zip
+!dist/mastermind-first-access-pack.zip
 !dist/SHA256SUMS.txt
 var/staging/
 .DS_Store

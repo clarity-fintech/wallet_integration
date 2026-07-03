@@ -10,6 +10,10 @@ All kits are packaged for direct GitHub download. SHA-256 checksums are tracked 
 |-----|------|----------|
 | **Zero-Friction Partner Kit** | [dist/integration-package-zero-friction.zip](dist/integration-package-zero-friction.zip) | Outreach letter, EIP-747 registry, 10-line SDK, portal HTML, 25-node manifests |
 | **Full Integration Bundle** | [dist/clrty-wallet-integration-full.zip](dist/clrty-wallet-integration-full.zip) | Everything below — SDKs, access packs, audit docs, scripts, verify gates |
+| **Wallet SDK Downloads** | [dist/wallet-sdk-downloads.zip](dist/wallet-sdk-downloads.zip) | TypeScript, Python, Rust, Go, OpenAPI, CLRTYWallet, integration SDK, wallet manifests |
+| **Wallet Process Pack** | [dist/wallet-process-pack.zip](dist/wallet-process-pack.zip) | README, PRISM integration, wallet integration process docs, portal, scripts, and access-pack manifest |
+| **Access Packs Catalog** | [dist/access-packs-catalog.zip](dist/access-packs-catalog.zip) | 28 AP-* access packs for SDK, wallet, RPC, intelligence, DX, learn, examples, agents, token, HELIX, and data |
+| **Mastermind First Access Pack** | [dist/mastermind-first-access-pack.zip](dist/mastermind-first-access-pack.zip) | First Access terminal vector and hosted manifest used by PRISM `clrt pack download mastermind` |
 
 ---
 
@@ -26,6 +30,21 @@ All kits are packaged for direct GitHub download. SHA-256 checksums are tracked 
 | Rust client | [sdk/rust/clrty-client/](sdk/rust/clrty-client/) | Rust |
 | Go client | [sdk/go/clrty/](sdk/go/clrty/) | Go |
 | OpenAPI spec | [sdk/openapi/clrty-api.yaml](sdk/openapi/clrty-api.yaml) | REST contract |
+
+## Complete Wallet Process
+
+```bash
+git clone https://github.com/clarity-fintech/wallet_integration.git
+cd wallet_integration
+unzip dist/wallet-sdk-downloads.zip -d /tmp/clrty-wallet-sdk
+unzip dist/wallet-process-pack.zip -d /tmp/clrty-wallet-process
+
+git clone https://github.com/clarity-fintech/clarity_prism_cli.git
+cd clarity_prism_cli
+clrt account create --username alice --entity "Acme" --email ops@acme.com --intent wallet
+clrt wallet connect --address 0x1234567890123456789012345678901234567890
+clrt pack download wallet-integration
+```
 
 ---
 

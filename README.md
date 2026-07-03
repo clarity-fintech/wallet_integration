@@ -16,6 +16,10 @@ PRISM CLI: [clarity-fintech/clarity_prism_cli](https://github.com/clarity-fintec
 |-----|------|
 | **Zero-Friction Partner Kit** | [dist/integration-package-zero-friction.zip](dist/integration-package-zero-friction.zip) |
 | **Full Bundle (SDKs + packs + audit)** | [dist/clrty-wallet-integration-full.zip](dist/clrty-wallet-integration-full.zip) |
+| **Wallet SDK Downloads** | [dist/wallet-sdk-downloads.zip](dist/wallet-sdk-downloads.zip) |
+| **Wallet Process Pack** | [dist/wallet-process-pack.zip](dist/wallet-process-pack.zip) |
+| **Access Packs Catalog** | [dist/access-packs-catalog.zip](dist/access-packs-catalog.zip) |
+| **Mastermind First Access Pack** | [dist/mastermind-first-access-pack.zip](dist/mastermind-first-access-pack.zip) |
 
 Full index: **[DOWNLOADS.md](DOWNLOADS.md)**
 
