@@ -1,6 +1,6 @@
 # Downloads — CLRTY Wallet Integration
 
-All kits verified via `make verify`. SHA-256 checksums in `var/compliance/integration_package_report.json`.
+All kits are packaged for direct GitHub download. SHA-256 checksums are tracked in [`dist/SHA256SUMS.txt`](dist/SHA256SUMS.txt).
 
 ---
 

@@ -1,0 +1,2 @@
+5e06d50ef9b3efc1d5f4cc5987348d2cdac6629ac0980765ce34841134a4413a  clrty-wallet-integration-full.zip
+e82e546d7622577f6340a3937617653fbb3c1dc32dc32620a6f1625cc04d8625  integration-package-zero-friction.zip
