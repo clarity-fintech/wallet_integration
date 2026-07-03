@@ -5,7 +5,7 @@
   "prism_cli": {
     "version": "1.0.2",
     "micro": 1,
-    "repo": "williamsnameiswill/clarity-prism-cli",
+    "repo": "clarity-fintech/clarity_prism_cli",
     "tag": "v1.0.2",
     "integration_doc": "docs/PRISM_CLI_INTEGRATION.md"
   }

@@ -5,7 +5,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/theangelofwill/CLRTY-WALLET-INTEGRATION.git"
+    "url": "https://github.com/clarity-fintech/wallet_integration.git"
   },
   "exports": {
     ".": "./sdk/clarity-wallet/src/index.ts",

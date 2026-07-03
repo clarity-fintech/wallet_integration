@@ -2,11 +2,11 @@
 
 **Turn-Key Zero-Friction Partner Kit · 25 Leverage Nodes · Full SDK Suite · Complete Download**
 
-Standalone repository: [theangelofwill/CLRTY-WALLET-INTEGRATION](https://github.com/theangelofwill/CLRTY-WALLET-INTEGRATION)
+Standalone repository: [clarity-fintech/wallet_integration](https://github.com/clarity-fintech/wallet_integration)
 
 Monorepo API: [theangelofwill/-CLRTY](https://github.com/theangelofwill/-CLRTY) (`clrty-api` on `:8545`)
 
-PRISM CLI: [williamsnameiswill/clarity-prism-cli](https://github.com/williamsnameiswill/clarity-prism-cli) **v1.0.2** — install `clrt`, run `clrt wallet *`, username P2P via `clrt prism commons send`. See **[docs/PRISM_CLI_INTEGRATION.md](docs/PRISM_CLI_INTEGRATION.md)**.
+PRISM CLI: [clarity-fintech/clarity_prism_cli](https://github.com/clarity-fintech/clarity_prism_cli) **v1.0.2** — install `clrt`, run `clrt wallet *`, username P2P via `clrt prism commons send`. See **[docs/PRISM_CLI_INTEGRATION.md](docs/PRISM_CLI_INTEGRATION.md)**.
 
 ---
 
@@ -81,4 +81,4 @@ dist/                    ZIP downloads (zero-friction + full bundle)
 
 ## License
 
-Proprietary — theangelofwill/CLRTY-WALLET-INTEGRATION
+Proprietary — clarity-fintech/wallet_integration

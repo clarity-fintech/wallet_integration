@@ -1,11 +1,11 @@
 # PRISM CLI Integration
 
-Cross-link between [williamsnameiswill/clarity-prism-cli](https://github.com/williamsnameiswill/clarity-prism-cli) **v1.0.2** and this wallet integration repo.
+Cross-link between [clarity-fintech/clarity_prism_cli](https://github.com/clarity-fintech/clarity_prism_cli) **v1.0.2** and this wallet integration repo.
 
 ## Install PRISM CLI
 
 ```bash
-git clone https://github.com/williamsnameiswill/clarity-prism-cli.git
+git clone https://github.com/clarity-fintech/clarity_prism_cli.git
 cd clarity-prism-cli
 npm install && npm run build
 node apps/cli/dist/index.js --version   # 1.0.2.μ1
@@ -67,7 +67,7 @@ API routes:
 Pack download URL:
 
 ```
-https://github.com/theangelofwill/CLRTY-WALLET-INTEGRATION/raw/main/dist/clrty-wallet-integration-full.zip
+https://github.com/clarity-fintech/wallet_integration/raw/main/dist/clrty-wallet-integration-full.zip
 ```
 
 ## Chain readiness (clrty-1)
