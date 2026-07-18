@@ -1,6 +1,6 @@
 # CLRTY Integration Package (Zero-Friction)
 
-**Branch:** [The-Integration-Package-(Zero-Friction)](https://github.com/theangelofwill/-CLRTY/tree/The-Integration-Package-(Zero-Friction))
+**Branch:** [The-Integration-Package-(Zero-Friction)](https://github.com/clarity-fintech/wallet_integration)
 
 Turn-key wallet partner kit for listing **$CLRTY** as a Sovereign Asset — asset registry, 10-line SDK, audit package, and partnership terms. No manual listing queue.
 
@@ -17,11 +17,11 @@ Turn-key wallet partner kit for listing **$CLRTY** as a Sovereign Asset — asse
 
 | Asset | GitHub link |
 |-------|-------------|
-| Universal Asset Registry | [universal_asset_registry.json](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/clarity-wallet/wallet-integration/manifests/universal_asset_registry.json) |
-| EIP-747 watchAsset | [eip747-watchAsset.json](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/integration-package/sdk/eip747-watchAsset.json) |
-| 10-line SDK | [integrate.ts](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/integration-package/sdk/integrate.ts) |
-| CLRTYWallet class | [clrty-wallet.ts](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/clarity-wallet/wallet-integration/src/clrty-wallet.ts) |
-| Compliance memo | [COMPLIANCE_MEMO.md](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/clarity-wallet/wallet-integration/docs/COMPLIANCE_MEMO.md) |
+| Universal Asset Registry | [universal_asset_registry.json](https://github.com/clarity-fintech/wallet_integration/blob/main/wallet-integration/manifests/universal_asset_registry.json) |
+| EIP-747 watchAsset | [eip747-watchAsset.json](https://github.com/clarity-fintech/wallet_integration/blob/main/integration-package/sdk/eip747-watchAsset.json) |
+| 10-line SDK | [integrate.ts](https://github.com/clarity-fintech/wallet_integration/blob/main/integration-package/sdk/integrate.ts) |
+| CLRTYWallet class | [clrty-wallet.ts](https://github.com/clarity-fintech/wallet_integration/blob/main/wallet-integration/src/clrty-wallet.ts) |
+| Compliance memo | [COMPLIANCE_MEMO.md](https://github.com/clarity-fintech/wallet_integration/blob/main/wallet-integration/docs/COMPLIANCE_MEMO.md) |
 | Wallet directory | [directory.html](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/frontend/integration-package/directory.html) |
 
 ## Verify

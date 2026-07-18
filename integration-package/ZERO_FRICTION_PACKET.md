@@ -2,7 +2,7 @@
 
 **CLRTY — Sovereign Asset · Turn-Key Wallet Partner Packet**
 
-**GitHub branch:** https://github.com/theangelofwill/-CLRTY/tree/The-Integration-Package-(Zero-Friction)
+**GitHub branch:** https://github.com/clarity-fintech/wallet_integration
 
 $CLRTY is moving beyond standard utility; we are defining the **Sovereign Asset** category. We have identified **[Wallet Name]** as a critical gateway for our users. Rather than requesting a manual listing, we are providing a **Turn-Key Integration Packet** designed to eliminate your engineering overhead and provide immediate, high-volume utility to your user base.
 
@@ -17,8 +17,8 @@ $CLRTY is moving beyond standard utility; we are defining the **Sovereign Asset*
 | Resource | Link |
 |----------|------|
 | Live registry API | `GET http://127.0.0.1:8545/v1/wallet/registry` |
-| Registry JSON | [universal_asset_registry.json](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/clarity-wallet/wallet-integration/manifests/universal_asset_registry.json) |
-| EIP-747 `watchAsset` | [sdk/eip747-watchAsset.json](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/integration-package/sdk/eip747-watchAsset.json) |
+| Registry JSON | [universal_asset_registry.json](https://github.com/clarity-fintech/wallet_integration/blob/main/wallet-integration/manifests/universal_asset_registry.json) |
+| EIP-747 `watchAsset` | [sdk/eip747-watchAsset.json](https://github.com/clarity-fintech/wallet_integration/blob/main/integration-package/sdk/eip747-watchAsset.json) |
 | Professional directory | [directory.html](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/frontend/integration-package/directory.html) |
 
 | Field | Value |
@@ -48,8 +48,8 @@ await clrty.promptWatchAsset();
 
 | Resource | Link |
 |----------|------|
-| 10-line source | [sdk/integrate.ts](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/integration-package/sdk/integrate.ts) |
-| SDK class | [clrty-wallet.ts](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/clarity-wallet/wallet-integration/src/clrty-wallet.ts) |
+| 10-line source | [sdk/integrate.ts](https://github.com/clarity-fintech/wallet_integration/blob/main/integration-package/sdk/integrate.ts) |
+| SDK class | [clrty-wallet.ts](https://github.com/clarity-fintech/wallet_integration/blob/main/wallet-integration/src/clrty-wallet.ts) |
 | npm package | `@clrty/clarity-wallet` |
 | CLI | `clrty wallet integration-kit` |
 | ZIP download | [integration-package-zero-friction.zip](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/dist/integration-package-zero-friction.zip) |
@@ -60,9 +60,9 @@ await clrty.promptWatchAsset();
 
 | Document | Link |
 |----------|------|
-| Internal audit | [internal_audit_report.md](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/docs/audit/internal_audit_report.md) |
-| Security gates | [SECURITY_AUDIT_COMPLETION_GATES.md](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/docs/audit/SECURITY_AUDIT_COMPLETION_GATES.md) |
-| Compliance memo | [COMPLIANCE_MEMO.md](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/clarity-wallet/wallet-integration/docs/COMPLIANCE_MEMO.md) |
+| Internal audit | [internal_audit_report.md](https://github.com/clarity-fintech/wallet_integration/blob/main/docs/audit/internal_audit_report.md) |
+| Security gates | [SECURITY_AUDIT_COMPLETION_GATES.md](https://github.com/clarity-fintech/wallet_integration/blob/main/docs/audit/SECURITY_AUDIT_COMPLETION_GATES.md) |
+| Compliance memo | [COMPLIANCE_MEMO.md](https://github.com/clarity-fintech/wallet_integration/blob/main/wallet-integration/docs/COMPLIANCE_MEMO.md) |
 | Manifest locks | [MANIFEST_INDEX.json](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/manifests/MANIFEST_INDEX.json) |
 | Kit SHA-256 | `5f26cf8a51a85a10cbb6a59409b703dea35f6d0e4926e2a82ca2598db7dd281e` |
 

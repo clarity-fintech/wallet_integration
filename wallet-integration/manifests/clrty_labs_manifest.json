@@ -71,7 +71,7 @@
         "section": "PRISM",
         "description": "Submit structured intent JSON via clrt prism query.",
         "action": null,
-        "doc": "../../clarity-prism-cli/README.md"
+        "doc": "https://github.com/clarity-fintech/clarity_prism_cli/blob/main/README.md"
       },
       {
         "id": "SEC-05",

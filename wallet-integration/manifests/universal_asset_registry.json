@@ -1,13 +1,24 @@
 {
-  "version": 1,
+  "version": 2,
   "symbol": "CLRTY",
   "name": "CLRTY",
   "decimals": 9,
-  "standard": "EIP-747-compatible",
+  "standard": "native-uclrty",
   "logo": "https://clrty.link/assets/clrty-logo.svg",
-  "chain_ids": ["clrty-l1", "ethereum", "base", "arbitrum"],
+  "chain_ids": ["clrty-1"],
+  "chain_id_decimal": 1202,
   "mint_address": "CLRTY111111111111111111111111111111111111111",
+  "scope": "clrty-1-only",
+  "policy": "docs/chain/CLRTY1_ONLY_SCOPE.md",
+  "deferred_chains": {
+    "ethereum": "phase_10",
+    "base": "phase_10",
+    "arbitrum": "phase_10",
+    "solana": "phase_10"
+  },
   "eip747": {
+    "status": "deferred",
+    "notes": "wallet_watchAsset / ERC-20 mirrors deferred until Phase 10 bridges",
     "type": "ERC20",
     "options": {
       "address": "0x000000000000000000000000000000000000c1r7",

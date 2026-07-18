@@ -3,7 +3,7 @@
 **To:** [Wallet Name] Engineering & Partnerships  
 **From:** CLRTY Partnership Desk  
 **Re:** Sovereign Asset listing — zero-friction integration kit  
-**Branch:** [The-Integration-Package-(Zero-Friction)](https://github.com/theangelofwill/-CLRTY/tree/The-Integration-Package-(Zero-Friction))
+**Branch:** [The-Integration-Package-(Zero-Friction)](https://github.com/clarity-fintech/wallet_integration)
 
 ---
 
@@ -20,9 +20,9 @@ $CLRTY is moving beyond standard utility; we are defining the **Sovereign Asset*
 | Resource | Link |
 |----------|------|
 | Live API | `GET http://127.0.0.1:8545/v1/wallet/registry` |
-| Registry manifest | [universal_asset_registry.json](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/clarity-wallet/wallet-integration/manifests/universal_asset_registry.json) |
-| EIP-747 `watchAsset` payload | [eip747-watchAsset.json](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/integration-package/sdk/eip747-watchAsset.json) |
-| Integration kit manifest | [turnkey_listing_kit.json](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/clarity-wallet/wallet-integration/manifests/turnkey_listing_kit.json) |
+| Registry manifest | [universal_asset_registry.json](https://github.com/clarity-fintech/wallet_integration/blob/main/wallet-integration/manifests/universal_asset_registry.json) |
+| EIP-747 `watchAsset` payload | [eip747-watchAsset.json](https://github.com/clarity-fintech/wallet_integration/blob/main/integration-package/sdk/eip747-watchAsset.json) |
+| Integration kit manifest | [turnkey_listing_kit.json](https://github.com/clarity-fintech/wallet_integration/blob/main/wallet-integration/manifests/turnkey_listing_kit.json) |
 
 **Token metadata**
 
@@ -45,11 +45,11 @@ $CLRTY is moving beyond standard utility; we are defining the **Sovereign Asset*
 
 | Resource | Link |
 |----------|------|
-| 10-line reference implementation | [integration-package/sdk/integrate.ts](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/integration-package/sdk/integrate.ts) |
-| `CLRTYWallet` SDK class | [clrty-wallet.ts](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/clarity-wallet/wallet-integration/src/clrty-wallet.ts) |
-| SDK README | [integration-package/sdk/README.md](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/integration-package/sdk/README.md) |
-| Full clarity-wallet product | [clarity-wallet/](https://github.com/theangelofwill/-CLRTY/tree/The-Integration-Package-(Zero-Friction)/clarity-wallet) |
-| Go SDK | [sdk/go/clrty/](https://github.com/theangelofwill/-CLRTY/tree/The-Integration-Package-(Zero-Friction)/sdk/go/clrty) |
+| 10-line reference implementation | [integration-package/sdk/integrate.ts](https://github.com/clarity-fintech/wallet_integration/blob/main/integration-package/sdk/integrate.ts) |
+| `CLRTYWallet` SDK class | [clrty-wallet.ts](https://github.com/clarity-fintech/wallet_integration/blob/main/wallet-integration/src/clrty-wallet.ts) |
+| SDK README | [integration-package/sdk/README.md](https://github.com/clarity-fintech/wallet_integration/blob/main/integration-package/sdk/README.md) |
+| Full clarity-wallet product | [clarity-wallet/](https://github.com/clarity-fintech/wallet_integration/clarity-wallet) |
+| Go SDK | [sdk/go/clrty/](https://github.com/clarity-fintech/wallet_integration/sdk/go/clrty) |
 | Download ZIP kit | [integration-package-zero-friction.zip](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/dist/integration-package-zero-friction.zip) |
 
 **10-line implementation** — balance fetching and native $CLRTY routing:
@@ -83,9 +83,9 @@ All regulatory checkboxes pre-cleared for your legal team.
 
 | Document | Link |
 |----------|------|
-| Internal audit report | [docs/audit/internal_audit_report.md](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/docs/audit/internal_audit_report.md) |
-| Security audit completion gates | [SECURITY_AUDIT_COMPLETION_GATES.md](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/docs/audit/SECURITY_AUDIT_COMPLETION_GATES.md) |
-| Compliance memo (wallet integration) | [COMPLIANCE_MEMO.md](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/clarity-wallet/wallet-integration/docs/COMPLIANCE_MEMO.md) |
+| Internal audit report | [docs/audit/internal_audit_report.md](https://github.com/clarity-fintech/wallet_integration/blob/main/docs/audit/internal_audit_report.md) |
+| Security audit completion gates | [SECURITY_AUDIT_COMPLETION_GATES.md](https://github.com/clarity-fintech/wallet_integration/blob/main/docs/audit/SECURITY_AUDIT_COMPLETION_GATES.md) |
+| Compliance memo (wallet integration) | [COMPLIANCE_MEMO.md](https://github.com/clarity-fintech/wallet_integration/blob/main/wallet-integration/docs/COMPLIANCE_MEMO.md) |
 | Manifest SHA-256 registry | [manifests/MANIFEST_INDEX.json](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/manifests/MANIFEST_INDEX.json) |
 | Integration kit checksum | `SHA-256:5f26cf8a51a85a10cbb6a59409b703dea35f6d0e4926e2a82ca2598db7dd281e` |
 | Sovereign-600 audit script | `bash scripts/audit/verify_sovereign_protocols.sh` |
@@ -133,4 +133,4 @@ Will Ferguson · theangelofwill/-CLRTY
 
 **Professional Directory Portal:** [frontend/integration-package/directory.html](https://github.com/theangelofwill/-CLRTY/blob/The-Integration-Package-(Zero-Friction)/frontend/integration-package/directory.html)  
 **Live portal (local):** `http://localhost:8080/frontend/integration-package/index.html`  
-**Kit hub:** [integration-package/](https://github.com/theangelofwill/-CLRTY/tree/The-Integration-Package-(Zero-Friction)/integration-package)
+**Kit hub:** [integration-package/](https://github.com/clarity-fintech/wallet_integration/integration-package)

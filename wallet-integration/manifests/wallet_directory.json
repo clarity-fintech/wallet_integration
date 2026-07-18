@@ -1,18 +1,123 @@
 {
-  "version": 1,
+  "version": 2,
+  "scope": "clrty-1-only",
+  "chain_id": 1202,
+  "chain_slug": "clrty-1",
+  "policy": "docs/chain/CLRTY1_ONLY_SCOPE.md",
   "tiers": {
     "1": "anchor",
     "2": "niche_hardware",
-    "3": "emerging"
+    "3": "emerging",
+    "deferred": "phase_10_omnichain"
   },
   "wallets": [
-    { "name": "MetaMask", "slug": "metamask", "tier": 1, "integration_status": "native_integration", "native_integration": true, "mirra_exclusive": false, "recommended": true },
-    { "name": "Trust Wallet", "slug": "trust", "tier": 1, "integration_status": "sdk_ready", "native_integration": false, "mirra_exclusive": false, "recommended": true },
-    { "name": "Phantom", "slug": "phantom", "tier": 1, "integration_status": "in_progress", "native_integration": false, "mirra_exclusive": true, "recommended": true },
-    { "name": "Coinbase Wallet", "slug": "coinbase", "tier": 1, "integration_status": "sdk_ready", "native_integration": false, "mirra_exclusive": false, "recommended": true },
-    { "name": "Ledger", "slug": "ledger", "tier": 2, "integration_status": "sdk_ready", "native_integration": false, "mirra_exclusive": false, "recommended": false },
-    { "name": "Trezor", "slug": "trezor", "tier": 2, "integration_status": "in_progress", "native_integration": false, "mirra_exclusive": false, "recommended": false },
-    { "name": "Rabby", "slug": "rabby", "tier": 3, "integration_status": "deferred", "native_integration": false, "mirra_exclusive": false, "recommended": false },
-    { "name": "Backpack", "slug": "backpack", "tier": 3, "integration_status": "in_progress", "native_integration": false, "mirra_exclusive": true, "recommended": true }
+    {
+      "name": "Clarity Wallet",
+      "slug": "clarity-wallet",
+      "tier": 1,
+      "integration_status": "native_integration",
+      "native_integration": true,
+      "mirra_exclusive": false,
+      "recommended": true,
+      "chains": ["clrty-1"],
+      "provider": "window.clrty"
+    },
+    {
+      "name": "CLRTY Labs Adapter",
+      "slug": "labs-adapter",
+      "tier": 1,
+      "integration_status": "native_integration",
+      "native_integration": true,
+      "mirra_exclusive": false,
+      "recommended": true,
+      "chains": ["clrty-1"],
+      "artifact": "src/labs-wallet-adapter.ts"
+    },
+    {
+      "name": "CLRTY Session (local SIWE)",
+      "slug": "clrty-session",
+      "tier": 1,
+      "integration_status": "native_integration",
+      "native_integration": true,
+      "mirra_exclusive": false,
+      "recommended": true,
+      "chains": ["clrty-1"],
+      "notes": "In-app CLRTY-1 key for Sign-In with CLRTY-1 (chain 1202)"
+    },
+    {
+      "name": "MetaMask",
+      "slug": "metamask",
+      "tier": "deferred",
+      "integration_status": "deferred",
+      "native_integration": false,
+      "mirra_exclusive": false,
+      "recommended": false,
+      "chains": [],
+      "notes": "Deferred — ETH/omnicha in Phase 10; EIP-3085 add CLRTY-1 only if used as shell"
+    },
+    {
+      "name": "Trust Wallet",
+      "slug": "trust",
+      "tier": "deferred",
+      "integration_status": "deferred",
+      "native_integration": false,
+      "recommended": false,
+      "chains": []
+    },
+    {
+      "name": "Phantom",
+      "slug": "phantom",
+      "tier": "deferred",
+      "integration_status": "deferred",
+      "native_integration": false,
+      "recommended": false,
+      "chains": []
+    },
+    {
+      "name": "Coinbase Wallet",
+      "slug": "coinbase",
+      "tier": "deferred",
+      "integration_status": "deferred",
+      "native_integration": false,
+      "recommended": false,
+      "chains": []
+    },
+    {
+      "name": "Ledger",
+      "slug": "ledger",
+      "tier": 2,
+      "integration_status": "in_progress",
+      "native_integration": false,
+      "recommended": false,
+      "chains": ["clrty-1"],
+      "notes": "Hardware on CLRTY-1 only when listed"
+    },
+    {
+      "name": "Trezor",
+      "slug": "trezor",
+      "tier": 2,
+      "integration_status": "deferred",
+      "native_integration": false,
+      "recommended": false,
+      "chains": []
+    },
+    {
+      "name": "Rabby",
+      "slug": "rabby",
+      "tier": "deferred",
+      "integration_status": "deferred",
+      "native_integration": false,
+      "recommended": false,
+      "chains": []
+    },
+    {
+      "name": "Backpack",
+      "slug": "backpack",
+      "tier": "deferred",
+      "integration_status": "deferred",
+      "native_integration": false,
+      "recommended": false,
+      "chains": []
+    }
   ]
 }

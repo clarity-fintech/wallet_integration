@@ -37,7 +37,7 @@
     "hardware_wallet_partnership",
     "mirra_exclusive_pitch"
   ],
-  "github_branch": "https://github.com/theangelofwill/-CLRTY/tree/The-Integration-Package-(Zero-Friction)",
+  "github_branch": "https://github.com/clarity-fintech/wallet_integration",
   "portal_url": "frontend/integration-package/index.html",
   "zip": "dist/integration-package-zero-friction.zip"
 }

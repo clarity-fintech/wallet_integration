@@ -6,7 +6,7 @@ Cross-link between [clarity-fintech/clarity_prism_cli](https://github.com/clarit
 
 ```bash
 git clone https://github.com/clarity-fintech/clarity_prism_cli.git
-cd clarity-prism-cli
+cd clarity_prism_cli
 npm install && npm run build
 node apps/cli/dist/index.js --version   # 1.0.2.μ1
 ```
