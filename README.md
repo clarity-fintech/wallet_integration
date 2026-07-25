@@ -1,5 +1,31 @@
 # CLRTY Wallet Integration
 
+
+## MIS kernel (`misc`) — required
+
+Sole active CLRTY-1 / Moniversive compiler kernel. **Not Python.**
+
+```bash
+# Download from clarity-fintech/CLRTY-MIS-Kernel
+git clone https://github.com/clarity-fintech/CLRTY-MIS-Kernel.git
+cd CLRTY-MIS-Kernel && bash scripts/download_misc_kernel.sh
+./bin/misc path.mis --check --compact-letters
+```
+
+Or from the Developer Kit: [`dist/mis-kernel-misc.zip`](https://github.com/clarity-fintech/developer_kit/raw/main/dist/mis-kernel-misc.zip)
+
+Policy: foreign kernels (`python3 clrtyc`, `solc`, `forge`, `hardhat`) → **hard error**. Settlement **clrty-1 / 1202**.
+
+**Turn-Key Zero-Friction Partner Kit · 25 Leverage Nodes · Full SDK Suite · Complete Download**
+
+Standalone repository: [clarity-fintech/wallet_integration](https://github.com/clarity-fintech/wallet_integration)
+
+Monorepo API: [theangelofwill/-CLRTY](https://github.com/theangelofwill/-CLRTY) (`clrty-api` on `:8545`)
+
+PRISM CLI: [clarity-fintech/clarity_prism_cli](https://github.com/clarity-fintech/clarity_prism_cli) **v1.0.2** — install `clrt`, run `clrt wallet *`, username P2P via `clrt prism commons send`. See **[docs/PRISM_CLI_INTEGRATION.md](docs/PRISM_CLI_INTEGRATION.md)**.
+
+---
+
 **Turn-Key Zero-Friction Partner Kit · 25 Leverage Nodes · Full SDK Suite · Complete Download**
 
 Standalone repository: [clarity-fintech/wallet_integration](https://github.com/clarity-fintech/wallet_integration)
