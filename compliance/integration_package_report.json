@@ -3,12 +3,12 @@
     {
       "name": "integration-package-zero-friction",
       "file": "integration-package-zero-friction.zip",
-      "sha256": "e82e546d7622577f6340a3937617653fbb3c1dc32dc32620a6f1625cc04d8625"
+      "sha256": "a2a4ab9bd674cdd7315fb580fdf97db979614dcd648835e311923351f5906750"
     },
     {
       "name": "clrty-wallet-integration-full",
       "file": "clrty-wallet-integration-full.zip",
-      "sha256": "8b80d7affb1b179285c68a4763d9ee44394a7aab09459a27bc766a93a845b223"
+      "sha256": "7baffd60c2337b7cb91a65c78545203fa40d6c18ba52e189ab05cb042a6413a0"
     }
   ],
   "status": "built"

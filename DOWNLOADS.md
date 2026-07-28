@@ -1,5 +1,7 @@
 # Downloads — CLRTY Wallet Integration
 
+**CLRTY-1** · chain **1202** · https://rpc.clarity-fintech.com · MIS checks via **`bin/misc`** only.
+
 All kits are packaged for direct GitHub download. SHA-256 checksums are tracked in [`dist/SHA256SUMS.txt`](dist/SHA256SUMS.txt).
 
 ---
