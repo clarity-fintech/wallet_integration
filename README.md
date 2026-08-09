@@ -112,3 +112,61 @@ dist/                    ZIP downloads (zero-friction + full bundle)
 ## License
 
 Proprietary — clarity-fintech/wallet_integration
+
+
+---
+
+<!-- CLRTY-DEVREF:START -->
+
+## Developer reference
+
+> Auto-generated command/architecture reference for **[`clarity-fintech/wallet_integration`](https://github.com/clarity-fintech/wallet_integration)**. The sections above are the maintained overview.
+
+### Get it running
+
+```bash
+git clone https://github.com/clarity-fintech/wallet_integration
+cd wallet_integration
+npm install
+```
+
+### Command reference (npm scripts)
+
+| Command | Runs |
+|---|---|
+| `npm run verify` | `make verify` |
+| `npm run setup-hooks` | `bash scripts/setup-git-hooks.sh` |
+
+### Make targets
+
+```bash
+make help
+make verify
+make nodes-verify
+make build-kit
+make stress
+```
+
+### Architecture (tracked layout)
+
+| Path | Files |
+|---|---|
+| `downloads/` | 31 |
+| `sdk/` | 29 |
+| `wallet-integration/` | 27 |
+| `integration-package/` | 8 |
+| `dist/` | 7 |
+| `docs/` | 6 |
+| `scripts/` | 5 |
+| `portal/` | 2 |
+| `var/` | 2 |
+| `.githooks/` | 1 |
+| `compliance/` | 1 |
+| `manifests/` | 1 |
+
+### Settlement context
+
+Part of the **CLRTY-1** ecosystem (chain **1202**). MIS modules are compiled by the
+[CLRTY-MIS-Kernel](https://github.com/clarity-fintech/CLRTY-MIS-Kernel) `misc` compiler.
+
+<!-- CLRTY-DEVREF:END -->
